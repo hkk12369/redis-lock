@@ -23,8 +23,16 @@
         "mutex",
         "semaphore"
     ],
-    "author": "",
-    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hkk12369/redis-lock.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hkk12369/redis-lock/issues"
+    },
+    "homepage": "https://github.com/hkk12369/redis-lock#readme",
+    "author": "Hitesh Khandelwal",
+    "license": "MIT",
     "devDependencies": {
         "@types/node": "^25.0.8",
         "tsup": "^8.5.1",
