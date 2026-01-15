@@ -1,0 +1,33 @@
+{
+    "name": "@hkk12369/redis-lock",
+    "version": "1.0.0",
+    "description": "Lock and semaphore implementation for nodejs using redis",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs"
+        }
+    },
+    "scripts": {
+        "build": "tsup",
+        "test": "node --test test/test_all.mjs"
+    },
+    "keywords": [
+        "redis",
+        "lock",
+        "distributed-lock",
+        "mutex",
+        "semaphore"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^25.0.8",
+        "tsup": "^8.5.1",
+        "typescript": "^5.9.3"
+    }
+}
