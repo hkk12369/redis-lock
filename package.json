@@ -1,6 +1,6 @@
 {
     "name": "@hkk12369/redis-lock",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Lock and semaphore implementation for nodejs using redis",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
