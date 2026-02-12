@@ -14,7 +14,8 @@
     },
     "scripts": {
         "build": "tsup",
-        "test": "node --test test/test_all.mjs"
+        "test": "node --test test/test_all.mjs",
+        "prepublishOnly": "npm run build"
     },
     "keywords": [
         "redis",
@@ -33,6 +34,9 @@
     "homepage": "https://github.com/hkk12369/redis-lock#readme",
     "author": "Hitesh Khandelwal",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "@types/node": "^25.0.8",
         "tsup": "^8.5.1",
